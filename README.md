@@ -26,13 +26,13 @@ Now your package's files will look like this:
 
 **- cSwift-Package-Example/**
 
-​		- Package.swift
+--- Package.swift
 
-​		**- Sources/**
+--**- Sources/**
 
-​				**- cSwift-Package-Example/**
+----**- cSwift-Package-Example/**
 
-​						- main.swift
+------- main.swift
 
 
 
@@ -126,25 +126,25 @@ Your directories should look like this:
 
 **- cSwift-Package-Example/**
 
-​		**-** Package.swift
+--**-** Package.swift
 
-​		**- Sources/**
+--**- Sources/**
 
-​				**- myCTarget/**				
+----**- myCTarget/**				
 
-​						**- include/**
+------**- include/**
 
-​								**-** helloWorld1.h
+--------**-** helloWorld1.h
 
-​								**-** helloWorld2.h
+--------**-** helloWorld2.h
 
-​						**-** helloWorld1.c
+------**-** helloWorld1.c
 
-​						**-** helloWorld2.c
+------**-** helloWorld2.c
 
-​				**- cSwift-Package-Example/**
+----**- cSwift-Package-Example/**
 
-​						**-** main.swift
+------**-** main.swift
 
 
 
