@@ -174,7 +174,7 @@ helloWorldTwo()
 8. In my case, I'm building the package and testing it:
 
 ```bash
-cSwift-Package-Exampl % swift build
+cSwift-Package-Example % swift build
 [5/5] Linking cSwift-Package-Example
 ```
 
