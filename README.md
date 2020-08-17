@@ -2,6 +2,12 @@
 
 This is a simple example for creating Swift Packages with **mixed C and Swift code**.
 
+[1. Creating the Package](https://github.com/AOx0/cSwift-Package-Example/blob/master/README.md#creating-the-package)
+
+[2. Target with C Code](https://github.com/AOx0/cSwift-Package-Example/blob/master/README.md#target-with-c-code)
+
+[3. Using the C Target](https://github.com/AOx0/cSwift-Package-Example/blob/master/README.md#using-the-c-target)
+
 
 
 ## Creating the Package
@@ -26,13 +32,13 @@ Now your package's files will look like this:
 
 **- cSwift-Package-Example/**
 
-.... **-** Package.swift
+. . . .  **-** Package.swift
 
-.... **- Sources/**
+. . . .  **- Sources/**
 
-.... **- cSwift-Package-Example/**
+. . . .  **- cSwift-Package-Example/**
 
-........ **-** main.swift
+. . . . . . . .  **-** main.swift
 
 
 
@@ -126,25 +132,25 @@ Your directories should look like this:
 
 **- cSwift-Package-Example/**
 
-.... **-** Package.swift
+. . . .  **-** Package.swift
 
-.... **- Sources/**
+. . . .  **- Sources/**
 
-........ **- myCTarget/**				
+. . . . . . . .  **- myCTarget/**				
 
-............ **- include/**
+. . . . . . . . . . . .  **- include/**
 
-................ **-** helloWorld1.h
+. . . . . . . . . . . . . . . .  **-** helloWorld1.h
 
-................ **-** helloWorld2.h
+. . . . . . . . . . . . . . . .  **-** helloWorld2.h
 
-............ **-** helloWorld1.c
+. . . . . . . . . . . .  **-** helloWorld1.c
 
-............ **-** helloWorld2.c
+. . . . . . . . . . . .  **-** helloWorld2.c
 
-........ **- cSwift-Package-Example/**
+. . . . . . . .  **- cSwift-Package-Example/**
 
-............ **-** main.swift
+. . . . . . . . . . . .  **-** main.swift
 
 
 
